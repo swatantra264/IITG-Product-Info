@@ -3,7 +3,7 @@ const inPro = require('./inPro');
 
 const Product = require('../models/product');
 
-mongoose.connect('mongodb://localhost:27017/prod-info', {
+mongoose.connect('mongodb+srv://swatantra264:Rohi264@cluster0.wae4hi0.mongodb.net/', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
